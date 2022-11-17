@@ -95,36 +95,8 @@
     "message": "Custom auth: Fix comment in template (#6804)",
     "needsCherryPick": false
   },
-  "ca4f2bdb5": {
-    "message": "fix(deps): update jest monorepo (#6818)",
-    "needsCherryPick": true
-  },
-  "a0b262d0b": {
-    "message": "fix(deps): update storybook monorepo to v6.5.13 (#6819)",
-    "needsCherryPick": true
-  },
-  "49d829fb5": {
-    "message": "Handle multiple set-cookie headers (#6812)",
-    "needsCherryPick": true
-  },
-  "64a6dce21": {
-    "message": "fix(deps): update dependency core-js to v3.26.0 (#6822)",
-    "needsCherryPick": true
-  },
-  "cadb28725": {
-    "message": "chore(deps): update dependency cypress to v10.11.0 (#6820)",
-    "needsCherryPick": true
-  },
-  "af3716763": {
-    "message": "fix(deps): update jest monorepo to v29.3.1 (#6848)",
-    "needsCherryPick": true
-  },
-  "7cd1204a5": {
-    "message": "fix(deps): update prisma monorepo to v4.6.0 (#6851)",
-    "needsCherryPick": true
-  },
-  "1d4b2c4a0": {
-    "message": "Change to use @iarna/toml instead of toml (#6839)",
-    "needsCherryPick": true
+  "97c36e1de": {
+    "message": "fix: add back webAuthn export path (#6903)",
+    "needsCherryPick": false
   }
 }
