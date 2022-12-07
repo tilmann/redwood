@@ -14,6 +14,7 @@ const findBabelConfig = (cwd = process.cwd()) => {
 
 module.exports = {
   extends: path.join(__dirname, 'packages/eslint-config/shared.js'),
+  plugins: ['@nrwl/nx'],
   parserOptions: {
     ecmaVersion: 'latest',
     babelOptions: {
@@ -31,6 +32,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-explicit-any': 'off',
     curly: 'error',
+    '@nrwl/nx/enforce-module-boundaries': 'error',
   },
   env: {
     // We use the most modern environment available. Then we rely on Babel to
