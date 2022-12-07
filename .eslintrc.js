@@ -32,7 +32,18 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-explicit-any': 'off',
     curly: 'error',
-    '@nrwl/nx/enforce-module-boundaries': 'error',
+    '@nrwl/nx/enforce-module-boundaries': [
+      'error',
+      {
+        depConstraints: [
+          {
+            sourceTag: '*',
+            onlyDependOnLibsWithTags: ['*'],
+          },
+        ],
+        enforceBuildableLibDependency: true,
+      },
+    ],
   },
   env: {
     // We use the most modern environment available. Then we rely on Babel to
