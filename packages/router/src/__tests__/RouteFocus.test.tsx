@@ -2,7 +2,7 @@ import { render, waitFor } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
 
 import { getFocus } from '../a11yUtils'
-import RouteFocus from '../route-focus'
+import RouteFocus from '../RouteFocus'
 import { Router, Route, routes } from '../router'
 
 // SETUP

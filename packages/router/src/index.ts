@@ -16,8 +16,8 @@ export * from './Set'
 
 export { default as RouteAnnouncement } from './RouteAnnouncement'
 export * from './RouteAnnouncement'
-export { default as RouteFocus } from './route-focus'
-export * from './route-focus'
+export { default as RouteFocus } from './RouteFocus'
+export * from './RouteFocus'
 
 export { parseSearch } from './util'
 
