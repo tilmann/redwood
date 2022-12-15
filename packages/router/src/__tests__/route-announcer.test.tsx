@@ -3,7 +3,7 @@ import '@testing-library/jest-dom/extend-expect'
 
 import { getAnnouncement } from '../a11yUtils'
 import { navigate } from '../history'
-import RouteAnnouncement from '../route-announcement'
+import RouteAnnouncement from '../RouteAnnouncement'
 import { Router, Route, routes } from '../router'
 
 // SETUP

@@ -14,8 +14,8 @@ export { Router, Route, routes } from './router'
 
 export * from './Set'
 
-export { default as RouteAnnouncement } from './route-announcement'
-export * from './route-announcement'
+export { default as RouteAnnouncement } from './RouteAnnouncement'
+export * from './RouteAnnouncement'
 export { default as RouteFocus } from './route-focus'
 export * from './route-focus'
 
