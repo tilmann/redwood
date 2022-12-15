@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { ActiveRouteLoader } from './active-route-loader'
 import { useActivePageContext } from './ActivePageContext'
+import { ActiveRouteLoader } from './ActiveRouteLoader'
 import { Redirect } from './links'
 import { useLocation, LocationProvider } from './location'
 import { ParamsProvider } from './params'
