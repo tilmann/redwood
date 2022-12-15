@@ -10,7 +10,7 @@ import {
   RouterContextProviderProps,
   useRouterState,
 } from './router-context'
-import { SplashPage } from './splash-page'
+import { SplashPage } from './SplashPage'
 import {
   flattenAll,
   isReactElement,

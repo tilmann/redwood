@@ -309,7 +309,7 @@ module.exports = (webpackEnv) => {
             ...getStyleLoaders(isEnvProduction),
             // (6)
             isEnvProduction && {
-              test: require.resolve('@redwoodjs/router/dist/splash-page'),
+              test: require.resolve('@redwoodjs/router/dist/SplashPage'),
               use: require.resolve('null-loader'),
             },
             // (7)
