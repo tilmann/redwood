@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 
 import { LocationContextType, useLocation } from './location'
-import { useRouterState } from './router-context'
+import { useRouterState } from './RouterContext'
 import { createNamedContext, matchPath, parseSearch } from './util'
 
 export interface ParamsContextProps {

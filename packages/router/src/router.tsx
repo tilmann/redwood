@@ -9,7 +9,7 @@ import {
   RouterContextProvider,
   RouterContextProviderProps,
   useRouterState,
-} from './router-context'
+} from './RouterContext'
 import { SplashPage } from './SplashPage'
 import {
   flattenAll,

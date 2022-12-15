@@ -3,7 +3,7 @@ import React, { ReactElement, ReactNode, useCallback } from 'react'
 import { Redirect } from './links'
 import { usePageLoadingContext } from './PageLoadingContext'
 import { routes as namedRoutes } from './router'
-import { useRouterState } from './router-context'
+import { useRouterState } from './RouterContext'
 
 type WrapperType<WTProps> = (
   props: WTProps & { children: ReactNode }
